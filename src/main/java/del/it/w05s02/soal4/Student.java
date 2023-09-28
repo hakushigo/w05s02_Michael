@@ -10,9 +10,17 @@ public class Student extends Human{
             String Name,
             Integer Id,
             int Age,
-            Boolean IsMarried
+            Boolean IsMarried,
+
+            String StudentID,
+            String SchoolName,
+            Integer Rank
     ){
         super(Name, Id, Age, IsMarried);
+
+        setStudentID(StudentID);
+        setSchoolName(SchoolName);
+        setRanking(Rank);
     }
 
     public void setStudentID(String studentID) {

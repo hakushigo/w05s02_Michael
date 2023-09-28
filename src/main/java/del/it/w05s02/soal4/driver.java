@@ -14,10 +14,13 @@ public class driver {
         );
 
         Student Hasan = new Student(
-                "Hasan Diego Napitupulu",
+                "Hasan Bin Napitupulu",
                 39082842,
                 19,
-                false
+                false,
+                "09324082494292342",
+                "SMA Negeri 1 Jakarta Utara",
+                1
         );
 
         System.out.println(DosenBuHerna.getName());
